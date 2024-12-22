@@ -1,0 +1,522 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #f6f6e9;
+}
+
+h1{
+    font-family: "Squada One", sans-serif;
+    color: #f6f6e9;
+}
+header img{
+    height: 4rem;
+}
+
+header h2{
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: #467a7d;
+
+}
+
+.about-section{
+    position: relative;
+    text-align: left;
+    background-color: #291b25;
+}
+
+
+.background-image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+.about-content {
+    padding: 50px;
+    background-image: url(images/HeaderImage.png);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    position: relative; 
+}
+.title{
+    font-family: "Squada One", sans-serif;
+    text-decoration: none;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 0;
+    transition: color 0.3s;
+    color: #ed5b2d;
+}
+
+.title:hover{
+    color: #467a7d;
+}
+
+.description{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    display: none;
+    color: #f6f6e9;
+}
+
+.show{
+    display: block;
+}
+
+
+  
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f6f6e9;
+    background-color: #291b25;
+}
+  
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 4.5rem; 
+    padding: 0 20px; 
+    background-color: #61a6ab; 
+    color: #467a7d;
+}
+  
+  
+header img.logo{
+    height: 40px; 
+    margin-right: 10px; 
+}
+  
+
+.brand-name{
+    font-family: "Squada One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: #f6f6e9;
+
+}
+  
+ 
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+  
+.navbar li{
+    display: inline;
+    
+}
+  
+.navbar a{
+    color: #467a7d;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+  
+.navbar a:hover{
+    color:#ed5b2d; 
+}
+
+
+
+
+
+.nav-column{
+    list-style: none;
+    padding: 0;
+}
+
+.nav-column{
+    margin: 0.5rem 0;
+}
+
+.nav-column a {
+    color: #467a7d;
+    text-decoration: none;
+}
+
+.nav-column a:hover {
+    text-decoration: underline;
+}
+
+
+
+.necklaces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6e9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: calc(100% - 10rem); 
+}
+
+.necklaces h2,
+.necklaces p{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+}
+
+h2{
+    color: #ed5b2d;
+    font-family: "Squada One", sans-serif;
+
+}
+
+.earrings{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6e9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: calc(100% - 10rem); 
+}
+
+.earrings h2,
+.earrings p{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+}
+
+.knicknacks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6e9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: calc(100% - 10rem); 
+}
+
+.knicknacks h2,
+.knicknacks p{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+}
+
+.knicknacks h2,
+{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+
+}
+
+
+.commissions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6e9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: calc(100% - 10rem); 
+}
+
+.commissions h2,
+.commissions p{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f6f6e9;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    max-width: 100%; 
+}
+
+.order h2,
+.order p{
+    color: #ed5b2d;
+    margin: 0 5rem;
+    margin-bottom: .5rem;
+}
+
+mark {
+    background-color: #ed5b2d;
+    color: #f6f6e9;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px; 
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 1rem 20px;
+    background-color: #291b25;
+}
+
+.item-box{
+    background-color: #f6f6e9;
+    border: 7px solid #ed5b2d; 
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.item-image{
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.item-info{
+    margin-top: 10px;
+}
+
+.item-tag{
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #291b25;
+    margin-bottom: 5px;
+}
+
+.item-price{
+    display: block;
+    font-size: 1.1em;
+    color: #467a7d;
+}
+
+.item-box:hover{
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #ed5b2d;
+    color: #f6f6e9;
+    
+}
+
+
+
+
+.eviebode{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    padding-top: 5rem;
+}
+
+.profile{
+    display: flex;
+    align-items: flex-start;
+    gap: 5rem;
+}
+
+.profile img{
+    max-width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.profile .text{
+    max-width: 600px;
+}
+
+h3 {
+    margin-top: 0;
+}
+.about-us{
+    background-color: #f6f6e9;
+}
+.about-us img{
+    max-width: 90%;
+    align-items: center;
+}
+.sustainability{
+    background-color: #ed5b2d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f6f6e9;
+    text-align: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+footer{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 4.5rem; 
+    padding: 0 20px; 
+    background-color: #61a6ab; 
+    color: #467a7d;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+  
+footer li{
+    display: inline;
+}
+
+footer a{
+    color: #467a7d;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 0 20px; 
+    transition: color 0.3s;
+}
+  
+footer a:hover{
+    color:#ed5b2d; 
+}
+
+.socials {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+    
+    
+}
+
+.socials h3{
+    font-family: "Squada One", sans-serif;
+    font-size: 2rem;
+    margin: 0;
+    color: #467a7d;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.socials a{
+    text-decoration: none; 
+    color: #467a7d; 
+}
+.socials a:hover{
+    color: #ed5b2d;
+}
+   
+.bottompart img{
+    display: block;
+    width: 100%;
+    height: auto; 
+    margin: 0; 
+    padding: 2.5rem 2.5rem 2.5rem 2.5rem; 
+    
+}
+
+
+@media (max-width:700px){
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-gap: 20px; 
+        width: 100%;
+        
+        padding-top: 1rem;
+      }
+      
+      header{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px 0;
+    }
+    .navbar a{
+        padding: .7rem .7rem .7rem .7rem;
+    }
+
+
+    .about-us img:nth-of-type(1){
+        content: url("images/mobile1.png");
+    }
+    .about-us img:nth-of-type(2){
+        content: url("images/mobile2.png");
+    }
+
+    .bottompart img{
+        display: block;
+        width: 100%;
+        height: auto; 
+        margin: 0; 
+        padding: 0 0 0 0;
+        
+    }
+
+
+    footer a{
+        color: #467a7d;
+        text-decoration: none;
+        font-size: 1em;
+        padding: 0 7px; 
+        transition: color 0.3s;
+    }
+    .earrings,
+    .necklaces,
+    .knicknacks,
+    .commissions,
+    .order{
+        max-width: 100%; 
+        margin: 0; 
+        padding: 2rem 0;
+        background-color: #f6f6e9; 
+    }
+
+    .earrings h2,
+    .earrings p,
+    .necklaces h2,
+    .necklaces p,
+    .knicknacks h2,
+    .knicknacks p,
+    .commissions h2,
+    .commissions p,
+    .order h2,
+    .order p{
+        margin: 0 30px 30px 30px; 
+        margin-bottom: 0.5rem; 
+    }
+
+    .socials h3{
+        font-size: 1rem;
+    }
+           
+}
